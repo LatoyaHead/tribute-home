@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color: rgb(182, 179, 179);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15pt;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.list-items {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.images {
+    background-color: white;
+    width: 96%;
+    padding: 20px;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+img {
+    width: 70%;
+}
